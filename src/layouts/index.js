@@ -1,35 +1,41 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 
-import Header from '../components/Header'
-import './index.css'
+import './index.css';
 
 const TemplateWrapper = ({ children }) => (
-  <div>
-    <Helmet
-      title="Gatsby Default Starter"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
-    <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
+    <div>
+        <Helmet
+            title="wNiedzieleZamkniete.pl - sprawdź czy w najbliższą niedzielę sklepy będą zamknięte czy otwarte"
+            meta={[
+                {
+                    name: 'description',
+                    content:
+                        'Sprawdź czy w niedzielę sklepy będą zamknięte czy otwarte. ' +
+                        'Lista niedziel handlowych oraz wolnych od handlu.',
+                },
+                {
+                    name: 'keywords',
+                    content: 'Sklepy w niedzielę, Niedziela handlowa, Kiedy sklepy są zamknięte',
+                },
+            ]}
+        />
+        <div
+            style={{
+                margin: '0 auto',
+                maxWidth: 960,
+                padding: '1.45rem 1.0875rem',
+                textAlign: 'center',
+            }}
+        >
+            {children()}
+        </div>
     </div>
-  </div>
-)
+);
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-}
+    children: PropTypes.func,
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;

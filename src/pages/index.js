@@ -1,13 +1,16 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+
+import AllSundays from '../components/AllSundays';
+import Footer from '../components/Footer';
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
-)
+    <div>
+        <h1>W Niedzielę zamknięte?</h1>
+        <p>Sprawdź czy w najbliższą niedzielę sklepy będą zamknięte czy otwarte</p>
+        <h3>Strona jeszcze w budowie! Niedługo wszystko będzie ekstra!</h3>
+        <AllSundays />
+        <Footer />
+    </div>
+);
 
-export default IndexPage
+export default IndexPage;

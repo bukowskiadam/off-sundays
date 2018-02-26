@@ -1,0 +1,14 @@
+.footer {
+    margin-top: 3em;
+}
+
+.footer .source a {
+    color: #005a9d;
+}
+
+.footer .madeBy {
+    margin-top: 2em;
+    font-family: sans-serif;
+    font-size: 70%;
+    color: #c9c9c9;
+}

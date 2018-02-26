@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    max-width: 400px;
+    margin: auto;
+}
+
+.row.closed {
+    color: #da0000;
+}
+
+.row.opened {
+    color: #8b8b8b;
+}
+
+.row .date {
+    flex-grow: 1;
+    flex-basis: 60%;
+}
+
+.row .value {
+    flex-grow: 1;
+    flex-basis: 40%;
+}

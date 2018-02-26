@@ -1,13 +1,10 @@
-# gatsby-starter-default
-The default Gatsby starter
+# wNiedzieleZamkniete.pl
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+[Gatsby][gatsby] page to present on which sunday shops are closed in Poland.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+## Act
 
-## Deploy
+http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180000305
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+
+[gatsby]: https://www.gatsbyjs.org/
