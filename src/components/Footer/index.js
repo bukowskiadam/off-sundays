@@ -14,6 +14,9 @@ const Footer = () => (
             </a>
         </div>
         <div className="madeBy">made with ♥ by Adam Bukowski</div>
+        <div className="cookies">
+            Na tej stronie wykorzystywane są ciasteczka na potrzeby Google Analytics
+        </div>
     </div>
 );
 

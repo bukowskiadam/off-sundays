@@ -1,5 +1,7 @@
 .footer {
     margin-top: 3em;
+    color: #c9c9c9;
+    font-family: sans-serif;
 }
 
 .footer .source a {
@@ -7,8 +9,10 @@
 }
 
 .footer .madeBy {
-    margin-top: 2em;
-    font-family: sans-serif;
+    margin: 2em 0;
     font-size: 70%;
-    color: #c9c9c9;
+}
+
+.footer .cookies {
+    font-size: 70%;
 }
