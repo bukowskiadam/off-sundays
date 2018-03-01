@@ -7,7 +7,7 @@ import './index.css';
 const TemplateWrapper = ({ children }) => (
     <div>
         <Helmet
-            title="wNiedzieleZamkniete.pl - sprawdź czy w najbliższą niedzielę sklepy będą zamknięte czy otwarte"
+            title="W Niedziele Zamknięte - sprawdź w które niedziele sklepy będą zamknięte"
             meta={[
                 {
                     name: 'description',

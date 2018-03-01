@@ -5,9 +5,9 @@ import Footer from '../components/Footer';
 
 const IndexPage = () => (
     <div>
-        <h1>W Niedzielę zamknięte?</h1>
-        <p>Sprawdź czy w najbliższą niedzielę sklepy będą zamknięte czy otwarte</p>
-        <h3>Strona jeszcze w budowie! Niedługo wszystko będzie ekstra!</h3>
+        <h1>W Niedziele Zamknięte!</h1>
+        <p>Sprawdź w które niedziele sklepy będą zamknięte</p>
+        <h3>2018</h3>
         <AllSundays />
         <Footer />
     </div>
