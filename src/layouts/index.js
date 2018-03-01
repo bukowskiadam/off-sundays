@@ -29,7 +29,7 @@ const TemplateWrapper = ({ children }) => (
                 },
                 {
                     name: 'apple-mobile-web-app-status-bar-style',
-                    content: 'black-translucent',
+                    content: 'default',
                 },
             ]}
             link={[
