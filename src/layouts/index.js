@@ -19,6 +19,18 @@ const TemplateWrapper = ({ children }) => (
                     name: 'keywords',
                     content: 'Sklepy w niedzielę, Niedziela handlowa, Kiedy sklepy są zamknięte',
                 },
+                {
+                    name: 'apple-mobile-web-app-title',
+                    content: 'W Niedziele Zamknięte',
+                },
+                {
+                    name: 'apple-mobile-web-app-capable',
+                    content: 'yes',
+                },
+            ]}
+            link={[
+                { rel: 'apple-touch-icon', href: '/icons/logo-apple-120x120.png' },
+                { rel: 'apple-touch-icon', sizes: '180x180', href: '/icons/logo-apple-180x180.png' },
             ]}
         />
         <div
