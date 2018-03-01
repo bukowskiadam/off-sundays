@@ -27,6 +27,10 @@ const TemplateWrapper = ({ children }) => (
                     name: 'apple-mobile-web-app-capable',
                     content: 'yes',
                 },
+                {
+                    name: 'apple-mobile-web-app-status-bar-style',
+                    content: 'black-translucent',
+                },
             ]}
             link={[
                 { rel: 'apple-touch-icon', href: '/icons/logo-apple-120x120.png' },
