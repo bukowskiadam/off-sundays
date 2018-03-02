@@ -4,20 +4,30 @@ import Helmet from 'react-helmet';
 
 import './index.css';
 
-const TemplateWrapper = ({ children }) => (
+export const query = graphql`
+    query IndexQuery {
+        site {
+            siteMetadata {
+                title
+            }
+        }
+    }
+`;
+
+const TemplateWrapper = ({ children, data }) => (
     <div>
         <Helmet
-            title="W Niedziele Zamknięte - sprawdź w które niedziele sklepy będą zamknięte"
+            title={data.site.siteMetadata.title}
             meta={[
                 {
                     name: 'description',
                     content:
-                        'Sprawdź czy w niedzielę sklepy będą zamknięte czy otwarte. ' +
-                        'Lista niedziel handlowych oraz wolnych od handlu.',
+                        'W 2018 roku weszła w życie nowa ustawa o ograniczeniu handlu w niedziele i święta. ' +
+                        'Sprawdź w które niedziele sklepy będą zamknięte.',
                 },
                 {
                     name: 'keywords',
-                    content: 'Sklepy w niedzielę, Niedziela handlowa, Kiedy sklepy są zamknięte',
+                    content: 'Sklepy zamknięte w niedzielę, Niedziela handlowa, Kiedy sklepy są zamknięte',
                 },
                 {
                     name: 'apple-mobile-web-app-title',

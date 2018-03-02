@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: 'W Niedziele Zamknięte - sprawdź w które niedziele sklepy będą zamknięte',
+        title: 'W Niedziele Zamknięte!',
     },
     plugins: [
         'gatsby-plugin-react-helmet',
@@ -43,5 +43,6 @@ module.exports = {
                 ],
             },
         },
+        'gatsby-plugin-netlify',
     ],
 };
