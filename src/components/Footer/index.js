@@ -13,8 +13,8 @@ const Footer = () => (
                 Ustawa z dnia 10 stycznia 2018 r. o ograniczeniu handlu w niedziele i święta oraz w niektóre inne dni
             </a>
         </div>
-        <div className="madeBy">made with ♥ by Adam Bukowski</div>
         <div className="cookies">Na tej stronie wykorzystywane są ciasteczka na potrzeby Google Analytics</div>
+        <div className="madeBy">© Adam Bukowski</div>
     </div>
 );
 
