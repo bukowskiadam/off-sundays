@@ -1,0 +1,12 @@
+.container {
+    padding: 10px 40px 10px 15px;
+}
+
+.image {
+    width: 25px;
+    float: right;
+}
+
+.image img {
+    margin-bottom: 0;
+}

@@ -1,14 +1,16 @@
 import React from 'react';
 
-import AllSundays from '../components/AllSundays';
+import Header from '../components/Header';
+import UpcomingDays from '../components/UpcomingDays';
 import Footer from '../components/Footer';
+import NavLink from '../components/NavLink';
 
 const IndexPage = () => (
     <div>
-        <h1>W Niedziele Zamknięte!</h1>
+        <Header />
         <p>Sprawdź w które niedziele sklepy będą zamknięte</p>
-        <h3>2018</h3>
-        <AllSundays />
+        <UpcomingDays />
+        <NavLink to="/2018/">Sprawdź cały rok</NavLink>
         <Footer />
     </div>
 );

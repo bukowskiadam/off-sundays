@@ -1,0 +1,22 @@
+.box > div {
+    border: 1px solid #9b9b9b;
+}
+
+.box > div:not(:first-child) {
+    border-top: 0;
+}
+
+.box > div:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.box > div:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.box {
+    max-width: 300px;
+    margin: 1.45em auto;
+}

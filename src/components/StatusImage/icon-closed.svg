@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:grid x="0" y="0" width="5.487" height="5.487"/>
+    <linearGradient id="gradient-3" gradientUnits="userSpaceOnUse" x1="250" y1="50.001" x2="250" y2="449.999" gradientTransform="matrix(0.743378, -0.485173, 0.637648, 0.798288, -75.086223, 173.778856)">
+      <stop offset="0" style="stop-color: rgba(255, 49, 49, 1)"/>
+      <stop offset="1" style="stop-color: rgba(202, 0, 0, 1)"/>
+    </linearGradient>
+    <linearGradient id="gradient-0" gradientUnits="userSpaceOnUse" x1="461.769" y1="71.612" x2="461.769" y2="521.612" gradientTransform="matrix(0.867317, -0.244033, 0.428617, 1.210588, -80.840869, 101.12507)">
+      <stop offset="0" style="stop-color: rgb(248, 248, 248);"/>
+      <stop offset="1" style="stop-color: rgb(201, 201, 201);"/>
+    </linearGradient>
+  </defs>
+  <g transform="matrix(1.211013, 0, 0, 1.211013, -62.221859, -55.117451)">
+    <ellipse transform="matrix(1, 0.000023, -0.000023, 1, -105.204339, -48.439096)" cx="363.03" cy="300.383" rx="202.723" ry="202.723" style="fill: url(#gradient-0);" bx:origin="0.523 0.499"/>
+    <polyline style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(49, 49, 49); stroke-width: 30;" points="156.121 191.711 174.41 191.711 219.301 307.025 331.987 306.953 364.869 232.882 197.208 232.828" transform="" bx:origin="0.551 0.516"/>
+    <path d="M 132.299 377.471 L 383.337 126.433 M 435.356 251.952 C 435.356 350.004 355.87 429.49 257.816 429.49 C 159.766 429.49 80.281 350.004 80.281 251.95 C 80.281 153.9 159.767 74.415 257.818 74.415 C 355.87 74.415 435.356 153.901 435.356 251.952 Z" style="stroke-width: 50; fill: none; stroke: url(#gradient-3); stroke-opacity: 0.78;" bx:origin="0.526 0.498"/>
+    <ellipse cx="235.438" cy="350.422" rx="19.999" ry="19.999" style="fill: rgb(49, 49, 49);" bx:origin="1.542 -1.966"/>
+    <ellipse transform="matrix(1, -0.000003, 0.000005, 1, 117.065447, 34.277308)" cx="198.289" cy="316.145" rx="19.999" ry="19.999" style="fill: rgb(49, 49, 49);" bx:origin="-0.698 -1.966"/>
+  </g>
+</svg>

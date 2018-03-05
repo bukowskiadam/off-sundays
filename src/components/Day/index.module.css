@@ -1,0 +1,20 @@
+.container {
+    padding: 20px 10px;
+}
+
+.day {
+    margin-bottom: 0.2em;
+}
+
+.date {
+    margin-bottom: 0.8em;
+}
+
+.image {
+    max-width: 150px;
+    margin: auto;
+}
+
+.image img {
+    margin-bottom: 0;
+}

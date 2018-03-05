@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:grid x="0" y="0" width="5.487" height="5.487"/>
+    <pattern id="pattern-0" x="0" y="0" width="25" height="25" patternUnits="userSpaceOnUse" viewBox="0 0 100 100">
+      <rect x="0" y="0" width="50" height="100" style="fill: black;"/>
+    </pattern>
+    <linearGradient id="gradient-2" gradientUnits="userSpaceOnUse" x1="257.819" y1="49.642" x2="257.819" y2="454.262" gradientTransform="matrix(0.88705, -0.461673, 0.515911, 1.020409, -98.188202, 113.886422)">
+      <stop offset="0" style="stop-color: rgb(109, 139, 214);"/>
+      <stop offset="1" style="stop-color: rgb(18, 32, 181);"/>
+    </linearGradient>
+  </defs>
+  <g transform="matrix(1.112155, 0, 0, 1.112155, -36.734661, -30.20966)">
+    <rect x="55.509" y="49.642" width="404.62" height="404.62" rx="24.598" ry="24.598" style="fill: url(#gradient-2);"/>
+    <rect x="73.492" y="67.625" width="368.654" height="368.654" rx="7.678" ry="7.678" style="fill: none; stroke: rgb(255, 255, 255); opacity: 0.95; stroke-width: 14.3865;"/>
+  </g>
+  <g transform="matrix(1.346121, 0, 0, 1.346121, -107.657776, -111.348831)">
+    <polyline style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 30; stroke: rgb(255, 255, 255); opacity: 0.95;" points="156.121 191.711 174.41 191.711 219.301 307.025 331.987 306.953 364.869 232.882 197.208 232.828" bx:origin="0.551 0.516"/>
+    <ellipse cx="235.438" cy="350.422" rx="19.999" ry="19.999" style="fill: rgb(255, 255, 255); opacity: 0.95;" bx:origin="1.542 -1.966"/>
+    <ellipse transform="matrix(0.999999, -0.000003, 0.000005, 1, 117.065721, 34.277308)" cx="198.289" cy="316.145" rx="19.999" ry="19.999" style="fill: rgb(255, 255, 255); opacity: 0.95;" bx:origin="-0.698 -1.966"/>
+  </g>
+</svg>

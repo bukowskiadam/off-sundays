@@ -6,9 +6,13 @@
 }
 
 .footer div {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
-.footer .source a {
+.source {
+    margin-bottom: 3em;
+}
+
+.source a {
     color: #005a9d;
 }
