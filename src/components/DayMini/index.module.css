@@ -12,9 +12,11 @@
 
 .image {
     width: 52px;
+    height: 52px;
     float: right;
 }
 
 .image img {
     margin-bottom: 0;
+    display: inline;
 }

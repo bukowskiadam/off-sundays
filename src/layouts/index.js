@@ -45,6 +45,7 @@ const TemplateWrapper = ({ children, data }) => (
             link={[
                 { rel: 'apple-touch-icon', href: '/icons/logo-apple-120x120.png' },
                 { rel: 'apple-touch-icon', sizes: '180x180', href: '/icons/logo-apple-180x180.png' },
+                { rel: 'shortcut icon', href: '/icons/logo-android-192x192.png' },
             ]}
         />
         <div

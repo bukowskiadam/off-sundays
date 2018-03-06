@@ -4,9 +4,11 @@
 
 .image {
     width: 25px;
+    height: 25px;
     float: right;
 }
 
 .image img {
     margin-bottom: 0;
+    display: inline;
 }

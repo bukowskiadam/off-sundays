@@ -18,7 +18,7 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-manifest',
             options: {
-                name: 'wNiedzieleZamkniete.pl',
+                name: 'W Niedziele Zamknięte',
                 short_name: 'W Niedziele Zamknięte',
                 start_url: '/',
                 background_color: '#eeeeee',
