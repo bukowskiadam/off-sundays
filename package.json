@@ -1,30 +1,69 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^1.9.207",
-    "gatsby-link": "^1.6.37",
-    "gatsby-plugin-google-analytics": "^1.0.19",
-    "gatsby-plugin-manifest": "^1.0.15",
-    "gatsby-plugin-netlify": "^1.0.19",
-    "gatsby-plugin-offline": "^1.0.15",
-    "gatsby-plugin-react-helmet": "^2.0.5",
-    "react-helmet": "^5.2.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --tab-width 4 --print-width 120 --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "prettier": "^1.10.2"
-  }
+    "name": "gatsby-starter-default",
+    "description": "Gatsby default starter",
+    "version": "1.0.0",
+    "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+    "dependencies": {
+        "gatsby": "^1.9.207",
+        "gatsby-link": "^1.6.37",
+        "gatsby-plugin-google-analytics": "^1.0.19",
+        "gatsby-plugin-manifest": "^1.0.15",
+        "gatsby-plugin-netlify": "^1.0.19",
+        "gatsby-plugin-offline": "^1.0.15",
+        "gatsby-plugin-react-helmet": "^2.0.5",
+        "react-helmet": "^5.2.0"
+    },
+    "keywords": [
+        "gatsby"
+    ],
+    "license": "MIT",
+    "main": "n/a",
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "format": "prettier --trailing-comma es5 --tab-width 4 --print-width 120 --single-quote --write \"src/**/*.js\"",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "enzyme": "^3.3.0",
+        "enzyme-adapter-react-16": "^1.1.1",
+        "enzyme-to-json": "^3.3.2",
+        "identity-obj-proxy": "^3.0.0",
+        "jest": "^22.4.2",
+        "prettier": "^1.10.2",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-test-renderer": "^16.2.0"
+    },
+    "babel": {
+        "env": {
+            "test": {
+                "presets": [
+                    "es2015",
+                    "react"
+                ],
+                "plugins": [
+                    "syntax-class-properties",
+                    "transform-class-properties"
+                ]
+            }
+        }
+    },
+    "jest": {
+        "transform": {
+            ".(js|jsx)": "babel-jest"
+        },
+        "snapshotSerializers": [
+            "enzyme-to-json/serializer"
+        ],
+        "testPathIgnorePatterns": [
+            "/node_modules/",
+            "/.cache/"
+        ],
+        "moduleNameMapper": {
+            "\\.(css|scss)$": "identity-obj-proxy",
+            "\\.(svg|png|jpg)$": "<rootDir>/jest/fileMock.js"
+        },
+        "setupTestFrameworkScriptFile": "./jest/setupTests.js"
+    }
 }

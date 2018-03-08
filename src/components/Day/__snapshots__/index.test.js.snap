@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Day renders correctly when shops are closed 1`] = `
+<div
+  class="container"
+>
+  <div>
+    <h2
+      class="day"
+    >
+      Czwartek
+    </h2>
+    <h4
+      class="date"
+    >
+      8 marca 2018 r.
+    </h4>
+  </div>
+  <div>
+    <div
+      class="image"
+    >
+      <img
+        alt="zamknięte"
+        src="[object Object]"
+      />
+    </div>
+    <div>
+      Handel ograniczony
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Day renders correctly when shops are opened 1`] = `
+<div
+  class="container"
+>
+  <div>
+    <h2
+      class="day"
+    >
+      Czwartek
+    </h2>
+    <h4
+      class="date"
+    >
+      8 marca 2018 r.
+    </h4>
+  </div>
+  <div>
+    <div
+      class="image"
+    >
+      <img
+        alt="otwarte"
+        src="[object Object]"
+      />
+    </div>
+    <div>
+      Handel dozwolony
+    </div>
+  </div>
+</div>
+`;

@@ -4,7 +4,7 @@ import StatusImage from '../StatusImage';
 
 import style from './index.module.css';
 
-export default () => (
+const Legend = () => (
     <div className={style.container}>
         <div className={style.entry}>
             <StatusImage isClosed={true} />
@@ -16,3 +16,5 @@ export default () => (
         </div>
     </div>
 );
+
+export default Legend;
