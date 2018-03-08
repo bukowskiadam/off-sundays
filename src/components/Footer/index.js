@@ -4,6 +4,17 @@ import style from './index.module.css';
 
 const Footer = () => (
     <div className={style.footer}>
+        <div>
+            <iframe
+                src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.wniedzielezamkniete.pl&width=320&layout=standard&action=like&size=large&show_faces=true&share=true&height=80"
+                width="320"
+                height="80"
+                style={{ border: 'none', overflow: 'hidden' }}
+                scrolling="no"
+                frameBorder="0"
+                allowTransparency="true"
+            />
+        </div>
         <div className={style.source}>
             <a
                 href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180000305"

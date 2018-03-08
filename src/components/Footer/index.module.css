@@ -13,6 +13,10 @@
     color: #005a9d;
 }
 
+.footer iframe {
+    margin-bottom: 0;
+}
+
 .source {
     margin-bottom: 3em;
 }
