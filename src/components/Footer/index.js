@@ -14,6 +14,11 @@ const Footer = () => (
             </a>
         </div>
         <div>Na tej stronie wykorzystywane są ciasteczka na potrzeby Google Analytics</div>
+        <div>
+            <a href="https://www.wniedzielezamkniete.pl" target="_blank">
+                https://wNiedzieleZamkniete.pl
+            </a>
+        </div>
         <div>© Adam Bukowski</div>
     </div>
 );

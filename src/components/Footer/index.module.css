@@ -9,10 +9,10 @@
     margin-top: 1em;
 }
 
-.source {
-    margin-bottom: 3em;
+.footer a {
+    color: #005a9d;
 }
 
-.source a {
-    color: #005a9d;
+.source {
+    margin-bottom: 3em;
 }

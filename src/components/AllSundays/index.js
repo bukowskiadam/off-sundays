@@ -6,6 +6,7 @@ import { isClosed } from '../../data';
 
 import DayList from '../DayList';
 import BoxContainer from '../BoxContainer';
+import Legend from '../Legend';
 
 const AllSundays = ({ year }) => (
     <div>
@@ -13,6 +14,7 @@ const AllSundays = ({ year }) => (
         <BoxContainer>
             {allSundays(year).map(date => <DayList key={date.toString()} date={date} isClosed={isClosed(date)} />)}
         </BoxContainer>
+        <Legend />
     </div>
 );
 
