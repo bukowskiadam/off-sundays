@@ -14,7 +14,6 @@ const AllSundays = ({ year }) => (
         <BoxContainer>
             {allSundays(year).map(date => <DayList key={date.toString()} date={date} isClosed={isClosed(date)} />)}
         </BoxContainer>
-        <Legend />
     </div>
 );
 

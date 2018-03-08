@@ -1,0 +1,15 @@
+@keyframes blink {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container::before {
+    content: 'ustalanie daty...';
+    margin: 5rem auto;
+    display: block;
+    animation: blink 1s linear infinite alternate;
+}

@@ -4,7 +4,6 @@ import Header from '../components/Header';
 import UpcomingDays from '../components/UpcomingDays';
 import Footer from '../components/Footer';
 import NavLink from '../components/NavLink';
-import Legend from '../components/Legend';
 import Questions from '../components/Questions';
 
 const IndexPage = () => (
@@ -12,7 +11,6 @@ const IndexPage = () => (
         <Header />
         <p>Sprawdź, w które niedziele sklepy będą zamknięte:</p>
         <UpcomingDays />
-        <Legend />
         <NavLink to="/2018/">Sprawdź cały rok</NavLink>
         <Questions />
         <Footer />
