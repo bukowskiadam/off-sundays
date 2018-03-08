@@ -9,38 +9,81 @@ export const query = graphql`
         site {
             siteMetadata {
                 title
+                description
             }
         }
     }
 `;
 
-const TemplateWrapper = ({ children, data }) => (
+const appleMobileWebApp = [
+    {
+        name: 'apple-mobile-web-app-title',
+        content: 'W Niedziele Zamknięte',
+    },
+    {
+        name: 'apple-mobile-web-app-capable',
+        content: 'yes',
+    },
+    {
+        name: 'apple-mobile-web-app-status-bar-style',
+        content: 'default',
+    },
+];
+
+const openGraph = (title, description) => [
+    {
+        property: 'og:type',
+        content: 'website',
+    },
+    {
+        property: 'og:url',
+        content: 'https://www.wniedzielezamkniete.pl',
+    },
+    {
+        property: 'og:title',
+        content: title,
+    },
+    {
+        property: 'og:description',
+        content: description,
+    },
+    {
+        property: 'og:locale',
+        content: 'pl_PL',
+    },
+    {
+        property: 'og:image',
+        content: 'https://www.wniedzielezamkniete.pl/icons/logo-android-512x512.png',
+    },
+    {
+        property: 'og:image:type',
+        content: 'image/png',
+    },
+    {
+        property: 'og:image:width',
+        content: '512',
+    },
+    {
+        property: 'og:image:height',
+        content: '512',
+    },
+];
+
+const TemplateWrapper = ({ children, data: { site: { siteMetadata: { title, description } } } }) => (
     <div>
         <Helmet
-            title={data.site.siteMetadata.title}
+            title={title}
             meta={[
                 {
                     name: 'description',
-                    content:
-                        'W 2018 roku weszła w życie nowa ustawa o ograniczeniu handlu w niedziele i święta. ' +
-                        'Sprawdź w które niedziele sklepy będą zamknięte.',
+                    content: description,
                 },
                 {
                     name: 'keywords',
                     content: 'Sklepy zamknięte w niedzielę, Niedziela handlowa, Kiedy sklepy są zamknięte',
                 },
-                {
-                    name: 'apple-mobile-web-app-title',
-                    content: 'W Niedziele Zamknięte',
-                },
-                {
-                    name: 'apple-mobile-web-app-capable',
-                    content: 'yes',
-                },
-                {
-                    name: 'apple-mobile-web-app-status-bar-style',
-                    content: 'default',
-                },
+                ...appleMobileWebApp,
+                ...openGraph(title, description),
             ]}
             link={[
                 { rel: 'apple-touch-icon', href: '/icons/logo-apple-120x120.png' },

@@ -1,6 +1,9 @@
 module.exports = {
     siteMetadata: {
         title: 'W Niedziele Zamknięte!',
+        description:
+            'W 2018 roku weszła w życie nowa ustawa o ograniczeniu handlu w niedziele i święta. ' +
+            'Sprawdź, w które niedziele sklepy będą zamknięte.',
     },
     plugins: [
         'gatsby-plugin-react-helmet',
