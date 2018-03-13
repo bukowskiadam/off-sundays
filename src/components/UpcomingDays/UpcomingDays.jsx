@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { sunday, nextWeek } from '../../helpers/dateOperations';
 import { isClosed } from '../../data';
@@ -7,8 +8,7 @@ import Day from '../Day';
 import DayMini from '../DayMini';
 import BoxContainer from '../BoxContainer';
 
-const UpcomingDays = () => {
-    const upcomingSunday = sunday();
+const UpcomingDays = ({ upcomingSunday }) => {
     const nextSunday = nextWeek(upcomingSunday);
     const twoWeeksLater = nextWeek(nextSunday);
     const threeWeeksLater = nextWeek(twoWeeksLater);
@@ -21,6 +21,14 @@ const UpcomingDays = () => {
             <DayMini date={ threeWeeksLater } isClosed={ isClosed(threeWeeksLater) } />
         </BoxContainer>
     );
+};
+
+UpcomingDays.propTypes = {
+    upcomingSunday: PropTypes.instanceOf(Date),
+};
+
+UpcomingDays.defaultProps = {
+    upcomingSunday: sunday(),
 };
 
 export default UpcomingDays;

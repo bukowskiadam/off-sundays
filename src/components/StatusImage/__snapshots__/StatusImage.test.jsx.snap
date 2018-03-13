@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusImage renders correctly for closed 1`] = `
+<img
+  alt="zamknięte"
+  src="icon-closed.svg"
+/>
+`;
+
+exports[`StatusImage renders correctly for opened 1`] = `
+<img
+  alt="otwarte"
+  src="icon-opened.svg"
+/>
+`;

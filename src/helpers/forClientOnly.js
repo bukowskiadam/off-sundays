@@ -1,7 +1,9 @@
 import React from 'react';
 
-export default (Component, Placeholder = null) =>
-    class extends React.Component {
+import getDisplayName from './getDisplayName';
+
+export default (Component, Placeholder = null) => {
+    class ForClientOnly extends React.Component {
         state = {
             client: false,
         };
@@ -17,4 +19,9 @@ export default (Component, Placeholder = null) =>
         render() {
             return this.state.client ? <Component {...this.props} /> : this.renderPlaceholder();
         }
-    };
+    }
+
+    ForClientOnly.displayName = `ForClientOnly(${getDisplayName(Component)}, ${getDisplayName(Placeholder)}`;
+
+    return ForClientOnly;
+};

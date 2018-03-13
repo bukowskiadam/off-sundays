@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index renders correctly 1`] = `
+<div>
+  <Component />
+  <p>
+    Sprawdź, w które niedziele sklepy będą zamknięte:
+  </p>
+  <ForClientOnly(UpcomingDays, Placeholder />
+  <NavLink
+    to="/2018/"
+  >
+    Sprawdź cały rok
+  </NavLink>
+  <Questions />
+  <Footer />
+</div>
+`;

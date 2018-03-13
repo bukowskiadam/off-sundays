@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpcomingDays renders correctly 1`] = `
+<BoxContainer>
+  <Day
+    date={2018-03-18T00:00:00.000Z}
+    isClosed={true}
+  />
+  <Day
+    date={2018-03-25T00:00:00.000Z}
+    isClosed={false}
+  />
+  <Day
+    date={2018-03-31T23:00:00.000Z}
+    isClosed={true}
+  />
+  <Day
+    date={2018-04-07T23:00:00.000Z}
+    isClosed={true}
+  />
+</BoxContainer>
+`;

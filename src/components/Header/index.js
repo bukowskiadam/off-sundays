@@ -1,3 +1,1 @@
-import React from 'react';
-
-export default () => <h1>W Niedziele Zamknięte!</h1>;
+export { default } from './Header';

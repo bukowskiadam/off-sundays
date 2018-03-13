@@ -22,7 +22,7 @@ exports[`Day renders correctly when shops are closed 1`] = `
     >
       <img
         alt="zamknięte"
-        src="[object Object]"
+        src="icon-closed.svg"
       />
     </div>
     <div>
@@ -54,7 +54,7 @@ exports[`Day renders correctly when shops are opened 1`] = `
     >
       <img
         alt="otwarte"
-        src="[object Object]"
+        src="icon-opened.svg"
       />
     </div>
     <div>

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Legend renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="entry"
+  >
+    <StatusImage
+      isClosed={true}
+    />
+    <span>
+      handel ograniczony
+    </span>
+  </div>
+  <div
+    className="entry"
+  >
+    <StatusImage
+      isClosed={false}
+    />
+    <span>
+      handel dozwolony
+    </span>
+  </div>
+</div>
+`;

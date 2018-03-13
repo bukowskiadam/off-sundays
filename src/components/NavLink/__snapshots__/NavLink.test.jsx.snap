@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavLink renders correctly 1`] = `
+<p
+  className="link"
+>
+  <GatsbyLink
+    to="nowhere"
+  />
+</p>
+`;

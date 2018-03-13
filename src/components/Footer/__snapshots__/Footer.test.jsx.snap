@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<div
+  className="footer"
+>
+  <div>
+    <iframe
+      allowtransparency="true"
+      frameBorder="0"
+      height="80"
+      scrolling="no"
+      src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.wniedzielezamkniete.pl&width=320&layout=standard&action=like&size=large&show_faces=true&share=true&height=80"
+      style={
+        Object {
+          "border": "none",
+          "overflow": "hidden",
+        }
+      }
+      width="320"
+    />
+  </div>
+  <div
+    className="source"
+  >
+    <a
+      href="http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180000305"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Ustawa z dnia 10 stycznia 2018 r. o ograniczeniu handlu w niedziele i święta oraz w niektóre inne dni
+    </a>
+  </div>
+  <div>
+    Na tej stronie wykorzystywane są ciasteczka na potrzeby Google Analytics
+  </div>
+  <div>
+    <a
+      href="https://www.wniedzielezamkniete.pl"
+      target="_blank"
+    >
+      https://wNiedzieleZamkniete.pl
+    </a>
+  </div>
+  <div>
+    © Adam Bukowski
+  </div>
+</div>
+`;

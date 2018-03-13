@@ -23,7 +23,8 @@
         "build": "gatsby build",
         "develop": "gatsby develop",
         "format": "prettier --trailing-comma es5 --tab-width 4 --print-width 120 --single-quote --write \"src/**/*.js\"",
-        "test": "jest"
+        "test": "jest",
+        "postinstall": "yarn test"
     },
     "devDependencies": {
         "enzyme": "^3.3.0",
@@ -34,6 +35,7 @@
         "prettier": "^1.10.2",
         "react": "^16.2.0",
         "react-dom": "^16.2.0",
+        "react-router-dom": "^4.2.2",
         "react-test-renderer": "^16.2.0"
     },
     "babel": {
@@ -52,7 +54,8 @@
     },
     "jest": {
         "transform": {
-            ".(js|jsx)": "babel-jest"
+            ".(js|jsx)": "babel-jest",
+            "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/jest/fileTransformer.js"
         },
         "snapshotSerializers": [
             "enzyme-to-json/serializer"
@@ -62,8 +65,7 @@
             "/.cache/"
         ],
         "moduleNameMapper": {
-            "\\.(css|scss)$": "identity-obj-proxy",
-            "\\.(svg|png|jpg)$": "<rootDir>/jest/fileMock.js"
+            "\\.(css|scss)$": "identity-obj-proxy"
         },
         "setupTestFrameworkScriptFile": "./jest/setupTests.js"
     }
