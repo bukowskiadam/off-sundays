@@ -1,8 +1,8 @@
 {
-    "name": "gatsby-starter-default",
-    "description": "Gatsby default starter",
+    "name": "off-sundays",
+    "description": "Off sundays in Poland",
     "version": "1.0.0",
-    "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+    "author": "Adam Bukowski",
     "dependencies": {
         "gatsby": "^1.9.207",
         "gatsby-link": "^1.6.37",
@@ -17,6 +17,7 @@
         "gatsby"
     ],
     "license": "MIT",
+    "private": true,
     "main": "n/a",
     "scripts": {
         "build": "gatsby build",
