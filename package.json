@@ -23,7 +23,7 @@
         "build": "gatsby build",
         "develop": "gatsby develop",
         "format": "prettier --trailing-comma es5 --tab-width 4 --print-width 120 --single-quote --write \"src/**/*.js\"",
-        "test": "jest",
+        "test": "env TZ='Europe/Warsaw' jest",
         "postinstall": "yarn test"
     },
     "devDependencies": {
