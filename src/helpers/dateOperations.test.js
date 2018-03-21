@@ -19,7 +19,7 @@ describe('date operations', () => {
             const someDay = new Date('2018-03-13T12:00:00.000Z');
             const expected = new Date('2018-03-20T12:00:00.000Z');
             expect(nextWeek(someDay)).toEqual(expected);
-        })
+        });
     });
 
     describe('allSundays', () => {

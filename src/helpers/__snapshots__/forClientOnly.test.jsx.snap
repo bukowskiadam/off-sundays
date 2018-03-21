@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`forClientOnly renders correctly for client side 1`] = `
+<ForClientOnly(ClientComponent, Placeholder>
+  <ClientComponent>
+    <div>
+      Client Component
+    </div>
+  </ClientComponent>
+</ForClientOnly(ClientComponent, Placeholder>
+`;
+
+exports[`forClientOnly renders nothing correctly for server side 1`] = `null`;
+
+exports[`forClientOnly renders placeholder correctly for server side 1`] = `
+<div>
+  Placeholder
+</div>
+`;

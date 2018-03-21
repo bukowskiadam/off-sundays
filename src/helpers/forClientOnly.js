@@ -21,7 +21,9 @@ export default (Component, Placeholder = null) => {
         }
     }
 
-    ForClientOnly.displayName = `ForClientOnly(${getDisplayName(Component)}, ${getDisplayName(Placeholder)}`;
+    const ComponentName = getDisplayName(Component);
+    const PlaceholderName = Placeholder ? getDisplayName(Placeholder) : 'null';
+    ForClientOnly.displayName = `ForClientOnly(${ComponentName}, ${PlaceholderName}`;
 
     return ForClientOnly;
 };
